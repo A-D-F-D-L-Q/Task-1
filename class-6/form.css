@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.welcome{
+    width: 50%;
+    height: 100%;
+    background: rgb(59, 61, 59);
+    color: white;
+}
+
+.welcome h2{
+    margin-top: 20px ;
+   
+}
+
+.icon{
+    width: 60%;
+    /* padding: 5px 0px; */
+}
+
+.icon ul li{
+    width: 20px;
+    font-size: 10px;
+}
+
+.icon ul{
+    display: flex;
+    gap: 5px;
+}
+
+/* Welcome isend here */
+
+.account{
+    width: 50%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.account .account_content{
+    width: 80%;
+    height: 80%;
+    /* margin: auto; */
+    margin: 30px 24px;
+    /* border: 1px solid black;
+    background-color: brown; */
+}
+
+.account_content h2{
+    color: #0dbe33;
+}
+.account_content p{
+    color: #ccc;
+}
+
+.account_content form{
+    padding: 5px;
+}
+
+.account_content form input{
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.account_content form label{
+    font-size: 10px;
+     color: #585454;
+}
+
+.account_content .link{
+    width: 91%;
+    color: white;
+    font-size: 10px;
+    padding: 7px;
+    margin-top: 5px;
+    background-color: #75d88b;
+    border: 1px solid #5cf504;
+    text-align: center;
+}
